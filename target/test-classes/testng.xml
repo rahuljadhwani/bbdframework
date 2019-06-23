@@ -1,0 +1,7 @@
+<suite name="BDD framework">
+	<test name="openHRM login test">
+		<classes>
+			<class name="framework.TestLogin"/>			
+		</classes>
+	</test>
+</suite>

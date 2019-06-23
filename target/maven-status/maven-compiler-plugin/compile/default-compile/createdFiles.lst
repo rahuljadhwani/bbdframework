@@ -1,0 +1,7 @@
+framework\pages\PageDashboard.class
+stepDefinitions\LoginStepDefinition.class
+framework\pages\PageAdmin.class
+framework\pages\PageUserMgmt.class
+testRunner\TestRunner.class
+framework\pages\PageLeave.class
+framework\pages\PageLogin.class

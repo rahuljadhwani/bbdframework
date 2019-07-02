@@ -2,6 +2,7 @@ package stepDefinitions;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.support.PageFactory;
 
 import cucumber.api.java.en.Given;
 import cucumber.api.java.en.Then;
@@ -12,7 +13,6 @@ public class LoginStepDefinition {
 
 	@Given("^Navigate to OrangeHRM demo page$")
 	public void navigate_to_OrangeHRM_demo_page() throws Throwable {
-		System.out.println(System.getProperty("user.dir"));
 		
 		System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir") + "/src/test/resources/drivers/chromedriver.exe");
 		

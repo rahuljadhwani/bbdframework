@@ -15,11 +15,8 @@ public class PageLogin {
 	@FindBy(id="btnLogin")
 	public WebElement signInBtn;
 	
-	WebDriver driver;
-	
 	public PageLogin(WebDriver driver) {
-		this.driver = driver;
-		PageFactory.initElements(driver, PageLogin.class);
+		PageFactory.initElements(driver, this);
 	}
 	public void doLogin(String username,String password) {
 		this.username.sendKeys(username);
